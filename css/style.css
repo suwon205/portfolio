@@ -2294,6 +2294,8 @@ fieldset:disabled a.btn {
       box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5); }
 
 .btn-outline-secondary {
+  margin-left: 5px;
+  margin-right: 5px;
   color: #6c757d;
   border-color: #6c757d; }
   .btn-outline-secondary:hover {
@@ -9303,13 +9305,13 @@ textarea.form-control {
   .blog-entry .text {
     width: 100%;
     margin: 0 auto; }
-    .blog-entry .text .heading {
+    .blog-entry .text .heading .sub-heading {
       font-size: 20px;
       margin-bottom: 16px;
       font-weight: 500; }
-      .blog-entry .text .heading a {
+      .blog-entry .text .heading .sub-heading a {
         color: #000000; }
-        .blog-entry .text .heading a:hover, .blog-entry .text .heading a:focus, .blog-entry .text .heading a:active {
+        .blog-entry .text .heading a:hover, .sub-heading a:hover, .blog-entry .text .heading a:focus, .blog-entry .text .heading a:active {
           color: #3e64ff; }
   .blog-entry .meta {
     display: inline-block;
@@ -9399,7 +9401,19 @@ textarea.form-control {
 
 .contact-section .contact-form {
   width: 100%; }
-
+.sub-heading{
+  color : #3e64ff;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.skill-name{
+    font-weight: bold;
+    color : #000000;
+    margin-bottom: 10px;
+}
+.skill-info{
+  color : #222222;
+}
 .contact-section .img {
   width: 100%;
   background-position: top center; }
@@ -9434,10 +9448,10 @@ textarea.form-control {
 
 .block-21 .text {
   width: calc(100% - 100px); }
-  .block-21 .text .heading {
+  .block-21 .text .heading .sub-heading{
     font-size: 18px;
     font-weight: 300; }
-    .block-21 .text .heading a {
+    .block-21 .text .heading .sub-heading a {
       color: #000000; }
       .block-21 .text .heading a:hover, .block-21 .text .heading a:active, .block-21 .text .heading a:focus {
         color: #3e64ff; }
